@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+
+
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador Challenge Alura</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    
+
+
+</head>
+
+
+<body>
+
+    <header>
+        
+        <div class="encabezado"> 
+        <img src="imagenes/Logo.png" alt="la A de Alura">
+        </div>   
+ 
+    </header>
+    
+    <main>
+
+    <section class="areaTrabajo">  
+
+        <ul class="textos">
+    
+            <li>
+
+        <h2>Codificador</h2>
+        <img src="imagenes/CajaFuerteA.png" alt="Caja CajaFuerte">
+        <textarea id="mensajeAqui" class="textoIngresado" cols="20" rows="2" placeholder="Ingrese el texto aqui"></textarea>
+        <p></p>
+        
+            </li>
+
+            <li>
+         <h2>Descodificador</h2>
+        <img src="imagenes/Muñeco.png" alt="muñeco con lupa">
+        <textarea id="mensajeResultado" class="textoResultado"  cols="20" rows="2" placeholder="Ingresa el texto que desees desencriptar"></textarea>
+         <p id="desParrafo"></p>
+            </li>
+
+        </ul>
+
+        <section class="areaControles"></section>
+             
+            <p class="advertncia"> ⃠ Solo letras minúsculas y sin acentos </p>
+            <div class="areaBotones">
+
+                <button onclick="encriptar();" class="botonControl" >Encriptar</button>
+
+                <button onclick="desencriptar();" class="botonControl" id="desencriptar" desecriptar>Desencriptar</button>
+            
+            </div>
+    
+        </section>
+
+    </section>
+
+    </main>
+
+   <script src="Codigo.js"></script>
+
+</body>
+
+
+</html>
